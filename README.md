@@ -1,5 +1,5 @@
 # verniy-mq-cli
-verniy-mq-cli is a simple Command-Line Interface (CLI) tool for interacting with [verniy-mq](https://github.com/verniyyy/verniy-mq), a lightweight message queue system created by the author.
+verniy-mq-cli is a simple Command-Line Interface (CLI) tool designed for interacting with [verniy-mq](https://github.com/verniyyy/verniy-mq), a lightweight message queue system developed by the creator of this tool.
 
 ## Installation
 ### Using `curl`:
