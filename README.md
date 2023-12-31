@@ -2,7 +2,7 @@
 verniy-mq-cli is a simple Command-Line Interface (CLI) tool designed for interacting with [verniy-mq](https://github.com/verniyyy/verniy-mq), a lightweight message queue system developed by the creator of this tool.
 
 ## Installation
-### Using `curl`:
+### Using `curl`
 Make sure you have `curl` on your machine.
 
 Then, you can install verniy-mq-cli using the following command:
@@ -12,7 +12,7 @@ chmod +x vmq-cli
 sudo cp -p vmq-cli /usr/local/bin
 ```
 
-### Using `git clone`` and manual build
+### Using `git clone` and manual build
 Alternatively, you can clone the repository and build verniy-mq-cli manually.
 
 Here's how:
