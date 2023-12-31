@@ -10,7 +10,9 @@ import (
 	"github.com/verniyyy/verniy-mq-cli/src"
 )
 
+var appname = "verniy-mq-cli"
 var version = "undefined"
+
 var (
 	host  string
 	port  uint16
@@ -20,7 +22,7 @@ var (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "verniy-mq-cli",
+	Use:   appname,
 	Short: "A brief description of your application",
 	Long: `A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
