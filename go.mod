@@ -4,7 +4,7 @@ go 1.21.4
 
 require (
 	github.com/spf13/cobra v1.8.0
-	github.com/verniyyy/verniy-mq-sdk v1.0.0
+	github.com/verniyyy/verniy-mq-sdk v1.0.1
 	golang.org/x/term v0.15.0
 )
 
