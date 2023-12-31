@@ -17,6 +17,7 @@ func CLI(host string, port uint16, queue, user, pass string) error {
 	if err != nil {
 		panic(err)
 	}
+	defer term.Restore(int(os.Stdin.Fd()), oldState)
 
 	stdio := struct {
 		io.Reader
@@ -26,7 +27,6 @@ func CLI(host string, port uint16, queue, user, pass string) error {
 		Writer: os.Stdout,
 	}
 	terminal := term.NewTerminal(stdio, "")
-	defer term.Restore(int(os.Stdin.Fd()), oldState)
 
 	puts := func(s any) {
 		terminal.Write([]byte(fmt.Sprintf("%v\n", s)))
